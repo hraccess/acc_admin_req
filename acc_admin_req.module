@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Access Procedure of Administrative request feature.
+ */
+
+include_once 'acc_admin_req.features.inc';

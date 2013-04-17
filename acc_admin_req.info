@@ -1,0 +1,12 @@
+name = Access Procedure of Administrative request
+description = Provides the Access Procedure of administrative request taxonomy
+core = 7.x
+package = Humanitarian Access
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = taxonomy
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = purpose_of_administrative_request
+features[taxonomy][] = purpose_of_administrative_request
